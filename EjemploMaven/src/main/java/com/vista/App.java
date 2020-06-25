@@ -17,8 +17,8 @@ public class App
     	
     	System.out.println(fc.cantidadVehiculosCreados());
     	
-    	fc.mostrarListado().forEach(item ->{
-			System.out.println(item);
+    	fc.mostrarListado().forEach(x ->{
+			System.out.println(x);
 		});
 
     }
